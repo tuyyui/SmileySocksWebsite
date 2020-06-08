@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+[data-aos="rotate-c"] {
+  transform: rotate(-180deg);
+  transition-property: transform;
+}
+.main-menu {
+  width: 100%;
+
+  padding: 0px;
+  font-size: 21px;
+  position: fixed;
+  background-color: white;
+  border-color: white;
+
+  top: 0px;
+  border-bottom: 1px dashed darkgray;
+  z-index: 20;
+}
+
+.main-menu ul {
+  display: inline-block;
+}
+.main-menu ul li {
+  font-family: "Libre Baskerville", serif;
+  list-style: none;
+  float: left;
+  display: inline-block;
+  margin-bottom: -50px;
+  padding: 20px;
+}
+.main-menu ul li a {
+  text-decoration: none;
+
+  color: black;
+}
+.main-menu a .Nav-Logo {
+  height: 50px;
+  position: relative;
+  top: -15px;
+  padding-left: 310px;
+}
+.main-menu a .Nav-Cart {
+  height: 40px;
+  padding-left: 350px;
+  top: -10px;
+  position: relative;
+}
+.h1 {
+  font-size: 50px;
+}
+.HeroHomePage_Container {
+  padding: 20px;
+
+  font-family: "Libre Baskerville", serif;
+}
+
+.HeroHomePage_InfoSection {
+  width: 50%;
+  float: left;
+  background-color: rgb(53, 65, 71);
+  opacity: 0.3px;
+  height: 620px;
+}
+.HeroHomePage_InfoSection h1 {
+  margin-top: 190px;
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.HeroHomePage_InfoSection p {
+  text-align: center;
+  font-size: 0.833rem;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  padding-left: 23px;
+  display: block;
+  transform: scale(0.8, 1);
+  font-weight: normal;
+}
+.HeroHomePage_MediaSection {
+  width: 50%;
+  float: left;
+}
+.HeroHomePage_Container .SmileSocks {
+  width: 100%;
+  height: 620px;
+}
+.HeroHomePage_ButtonContainer a {
+  border: 14px solid;
+  padding: 2px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+  font-weight: lighter;
+  color: black;
+}
+.HeroHomePage_ButtonContainer a:hover {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+.HeroHomePage_ButtonContainer {
+  margin-left: 175px;
+  margin-top: 60px;
+  display: inline-block;
+}
+.StoryCard-Wrapper {
+  font-family: "Domine", serif;
+  text-align: center;
+  border-bottom: 1px dashed lightgray;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 90px;
+  padding-bottom: 90px;
+  margin-bottom: 30px;
+}
+.StoryCard-Wrapper .Card {
+  width: 33%;
+  float: left;
+  overflow: hidden;
+}
+.StoryCard-Wrapper .Card h2 {
+  color: rgb(53, 65, 71);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.StoryCard-Wrapper .Card p {
+  opacity: 0.4;
+}
+.StoryCard-Wrapper .Card img {
+  height: 250px;
+  padding-bottom: 0px;
+  width: 350px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.ThirdPage_Content {
+  margin-bottom: 80px;
+}
+.ThirdPage_Content h1 {
+  align-content: center;
+  margin-top: 90px;
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(53, 65, 71);
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+.ThirdPage_Content {
+  overflow: hidden;
+}
+.ShopCards_Wrapper {
+  width: auto;
+  height: 550px;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 210px;
+}
+.ShopCards_Wrapper .ShopCards_Header {
+  align-content: center;
+  text-align: center;
+  text-decoration: underline yellow;
+}
+.ShopCards_Wrapper .ShopCards {
+  float: left;
+  display: inline-block;
+  margin-left: 25px;
+  width: 23%;
+}
+
+.ShopCards_Wrapper .ShopCards img {
+  height: 430px;
+  width: 280px;
+  z-index: -2;
+  position: absolute;
+  overflow: hidden;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.ShopCards_Wrapper .ShopCards p {
+  font-size: 1.04rem;
+  color: black;
+  padding-left: 77px;
+  font-weight: bold;
+}
+.ShopCards_Wrapper .ShopCards a {
+  border: 3px solid;
+  border-color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  margin-left: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+
+  top: 320px;
+}
+.ShopCards_Wrapper .ShopCards a:nth-child(2) {
+  border: 3px solid;
+  border-color: white;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  margin-left: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  position: relative;
+  top: 373px;
+}
+
+/*
+Creating the Shop Cards
+*/
+.ShopCards_Wrapper .ShopCards .ShopCards_Description-1 {
+  margin-top: 370px;
+  position: relative;
+  margin-left: 30px;
+}
+.ShopCards_Wrapper .ShopCards .ShopCards_Reviews-1 {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ShopCards_Wrapper .ShopCards .ShopCards_Description-2 {
+  margin-top: 423px;
+  position: relative;
+  margin-left: 45px;
+}
+.ShopCards_Wrapper .ShopCards .ShopCards_Reviews-2 {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ShopCards_Wrapper .ShopCards .ShopCards_Description-3 {
+  margin-top: 423px;
+  position: relative;
+  margin-left: 20px;
+}
+.ShopCards_Wrapper .ShopCards .ShopCards_Reviews-3 {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.ShopCards_Wrapper .ShopCards .ShopCards_Description-4 {
+  margin-top: 423px;
+  position: relative;
+  margin-left: 40px;
+}
+.ShopCards_Wrapper .ShopCards .ShopCards_Reviews-4 {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.ShopCards_Wrapper .ShopCards_ShopAllProducts {
+  align-content: center;
+  text-decoration: none;
+  position: relative;
+  color: black;
+  border: 1px solid lightgray;
+  font-weight: lighter;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px rgb(197, 197, 197);
+  top: 70px;
+  left: 180px;
+  text-align: center;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.ShopCards_Wrapper .ShopCards_ShopAllProducts:hover {
+  box-shadow: 0px 2px 2px rgb(228, 228, 228);
+}
+/*
+End of Shop Cards declaration 
+*/
+.ShopCards_Wrapper .ShopCards a:hover {
+  color: rgb(160, 160, 8);
+}
+.Charity_Wrapper {
+  position: relative;
+  background-color: #f1ded4;
+  width: 100%;
+  height: 100%;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+
+  display: inline-block;
+}
+.Charity_Wrapper .CharityPage_Media {
+  float: left;
+  width: 50%;
+}
+.Charity_Wrapper .CharityPage_Media .CharityPage_OurGoal {
+  text-decoration: underline yellow;
+  font-weight: lighter;
+}
+.Charity_Wrapper .CharityPage_Media h1 {
+  font-size: 69px;
+  color: #172345;
+  font-weight: bolder;
+}
+.Charity_Wrapper .CharityPage_Media p {
+  font-weight: lighter;
+}
+.Charity_Wrapper .CharityPage_Image {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+.Charity_Wrapper .CharityPage_Image img {
+  height: 590px;
+}
+.Charity_Wrapper .CharityPage_Media li {
+  list-style: none;
+  line-height: 37px;
+  font-weight: lighter;
+}
+.Charity_Wrapper .CharityPage_Media li:before {
+  color: blue;
+}
+.Charity_Wrapper .CharityPage_Media .CharityPage_ShopNow {
+  text-decoration: none;
+  color: rgb(31, 121, 255);
+  margin-left: 50px;
+  font-size: 1.5rem;
+}
+
+.Charity_Wrapper .CharityPage_Media .CharityPage_ShopNow:hover {
+  color: #0fa3ad;
+}
+.Charity_Wrapper .CharityPage_Media .CharityPage_ShopNow .fa-arrow-right {
+  color: rgb(31, 121, 255);
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+.Charity_Wrapper .CharityPage_Media .CharityPage_ShopNow .fa-arrow-right:hover {
+  color: #0fa3ad;
+}
+.Charity_Wrapper .CharityPage_Media .fa-check {
+  color: #3a5ec1;
+}
+.Charity_Wrapper .CharityPage_Media .CharityPage_ShopNow {
+}
